@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\detours">
+      <UniqueIdentifier>{c653b7dd-3f18-413b-b13b-8dd9091af99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\MetaHook">
+      <UniqueIdentifier>{a59421d9-b46a-444d-a697-c874deb7c731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\util">
+      <UniqueIdentifier>{a1b70244-e619-4c16-9a70-8fe52cf8e3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bc71be50-a4fc-4361-8156-05a684ab1b2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceListener.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\disasm.cpp">
+      <Filter>win32\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\image.cpp">
+      <Filter>win32\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\modules.cpp">
+      <Filter>win32\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\detours.cpp">
+      <Filter>win32\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaHook\metahook.cpp">
+      <Filter>win32\MetaHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="util\Encode.cpp">
+      <Filter>win32\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameOverScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\InGameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceListener.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours\detver.h">
+      <Filter>win32\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours\detours.h">
+      <Filter>win32\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaHook\metahook.h">
+      <Filter>win32\MetaHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Encode.h">
+      <Filter>win32\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameOverScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\InGameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
