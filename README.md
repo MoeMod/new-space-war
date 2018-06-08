@@ -3,7 +3,7 @@
 使用鼠标移动和旋转自己的战斗机，鼠标左键发射炮弹，鼠标右键移动位置。
 # Requirements
 ## Visual Studio 2017
-## Windows 10 SDK (14399 or higher)
+## Windows 10 SDK (14393 or higher)
 ## Cocos2D-x
 # Implement
 我们在代码实现时引用了Cocos2D-X框架、Windows 10 API、MetaHook库。
